@@ -1,0 +1,47 @@
+.nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(249, 249, 250);
+	padding: 20px 50px;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__link {
+	color: #2e363e;
+	position: relative;
+}
+
+.nav__notification {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: tomato;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	font-weight: 600;
+	position: absolute;
+	top: -16px;
+	left: 22px;
+}
+
+.nav__dot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: tomato;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	position: absolute;
+	left: 30px;
+}

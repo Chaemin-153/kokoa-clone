@@ -1,5 +1,20 @@
 .user-component {
 	justify-content: space-between;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+@keyframes hoverOn {
+	from {
+		transform: none;
+	}
+	to {
+		box-shadow: 0px 0px 50px -22px grey;
+	}
+}
+
+.user-component:hover {
+	animation: hoverOn 0.5s linear forwards;
 }
 
 .user-component,

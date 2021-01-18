@@ -23,10 +23,21 @@
 }
 
 .friends-screen__channel-header {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	display: flex;
 	justify-content: space-between;
 	color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen__channel .user-component {
+	padding-bottom: 15px;
+	border-bottom: var(--main-border);
+	margin-bottom: 15px;
+}
+
+.friends-screen__channel .fa-birthday-cake {
+	margin-left: 5px;
+	color: palevioletred;
 }
 
 @keyframes hideSplashScreen {
@@ -34,6 +45,7 @@
 		opacity: 1;
 	}
 	to {
+		transform: scaleY(0);
 		opacity: 0;
 		visibility: hidden;
 	}
